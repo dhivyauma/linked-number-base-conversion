@@ -4,7 +4,7 @@ This project implements a flexible number representation system using a **doubly
 
 Each digit of a number is stored in its own node, enabling precise control over digit-level operations such as insertion, removal, validation, and base conversion.
 
-## 📌 Overview
+## Overview
 
 The system supports:
 - Representing numbers in arbitrary bases (binary, decimal, hexadecimal, etc.)
@@ -36,12 +36,12 @@ A custom runtime exception used to signal invalid operations or malformed number
 - Positional value computation
 - Deterministic data structure traversal
 
-## 📂 Project Structure
+## Project Structure
 ├── LinkedNumber.java
 └── LinkedNumberException.java
 
 
-## 🔄 Supported Operations
+## Supported Operations
 - Validate number format for a given base
 - Convert between decimal and non-decimal systems
 - Convert between two non-decimal systems
